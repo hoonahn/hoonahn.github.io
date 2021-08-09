@@ -25,9 +25,9 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "hoonahn-github-io"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -242,12 +242,12 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
-# category_archive:
-#   type: liquid
-#   path: /categories/
-# tag_archive:
-#   type: liquid
-#   path: /tags/
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -279,7 +279,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
   # _pages
