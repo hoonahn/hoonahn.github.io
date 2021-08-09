@@ -11,11 +11,11 @@ minimal_mistakes_skin    : "dark"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Bacon"
+title                    : "ash"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Hoon Ahn"
-description              : "까먹기 전에 적어두는 테크 블로그"
+description              : "까먹기 전에 적어두는 테크 레시피"
 url                      : "https://hoonahn.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "hoonahn/hoonahn.github.io"
@@ -96,9 +96,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Sanghoon Ahn"
+  name             : "Hoon Ahn"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "DevOps Engineer"
+  bio              : "레시피 모으는 DevOps 엔지니어"
   location         : "Seoul, South Korea"
   email            : "shahn801@gmail.com"
   links:
